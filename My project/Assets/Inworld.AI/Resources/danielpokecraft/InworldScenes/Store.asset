@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Store
   m_EditorClassIdentifier: 
   fullName: workspaces/default-epovkwueqsmclhnvs6xkma/scenes/store
-  shortName: Store
+  shortName: Mako-Mart
   description: A Grocery Store where many of the local residents go to get daily
-    needs.
+    needs. The lone Cashier is Heather and is there to checkout the Players groceries.
   characters:
-  - workspaces/default-epovkwueqsmclhnvs6xkma/characters/jacob_cashier
   - workspaces/default-epovkwueqsmclhnvs6xkma/characters/cashier
-  triggers: []
+  triggers:
+  - workspaces/default-epovkwueqsmclhnvs6xkma/triggers/start_checkout
   index: 0
